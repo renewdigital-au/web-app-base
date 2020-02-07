@@ -1,10 +1,10 @@
 {
-  "name": "web-app-base",
+  "name": "bello",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config ./config/jestConfig.json"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/renewdigital-au/web-app-base/issues"
   },
   "homepage": "https://github.com/renewdigital-au/web-app-base#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "babel-jest": "^25.1.0",
